@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f9490fa8be20ec46b8710dace78634f, type: 3}
+  m_Name: New Sound Bank
+  m_EditorClassIdentifier: Assembly-CSharp::SoundBank
+  sounds:
+  - key: laugh
+    clip: {fileID: 8300000, guid: 39f4623d7c650db4fa67d4095514d442, type: 3}
+  - key: question
+    clip: {fileID: 8300000, guid: a7fbfbeac4f7d174d8a4b9ed41ae2b1f, type: 3}
