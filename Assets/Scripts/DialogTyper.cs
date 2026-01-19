@@ -19,7 +19,7 @@ public class DialogTyper : MonoBehaviour {
     private bool readingKey = false;
 
     private void Start() {
-        StartDialog("Hi, my name is Yasmina[taptap2]! What is your name[question]?");
+        StartDialog("Ха[laugh] ха ха ха ха ха! Вот ты мешоооок! Это все на что ты способен[question]?");
     }
     public void StartDialog(string rawText) {
         StopAllCoroutines();
