@@ -1,0 +1,884 @@
+fileFormatVersion: 2
+guid: 36455e38b1c06b547b5ffe9956b91004
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2554231774078122066
+    second: sunRays_0
+  - first:
+      213: 3487924195195711213
+    second: sunRays_1
+  - first:
+      213: 7919463235695552159
+    second: sunRays_2
+  - first:
+      213: -7753493449964969010
+    second: sunRays_3
+  - first:
+      213: -6033932596959056923
+    second: sunRays_4
+  - first:
+      213: 1604753274856597586
+    second: sunRays_5
+  - first:
+      213: -5846934868677936242
+    second: sunRays_6
+  - first:
+      213: 8883991368042605784
+    second: sunRays_7
+  - first:
+      213: -3299585619510233761
+    second: sunRays_8
+  - first:
+      213: -1993700248641044856
+    second: sunRays_9
+  - first:
+      213: -3935403623159152157
+    second: sunRays_10
+  - first:
+      213: 8399766628197941201
+    second: sunRays_11
+  - first:
+      213: -4168134487327958831
+    second: sunRays_12
+  - first:
+      213: 4606397443087886065
+    second: sunRays_13
+  - first:
+      213: -4285225219633537686
+    second: sunRays_14
+  - first:
+      213: -7294811241263897413
+    second: sunRays_15
+  - first:
+      213: -3962120889484145819
+    second: sunRays_16
+  - first:
+      213: -627051440595864941
+    second: sunRays_17
+  - first:
+      213: -5309000084871722178
+    second: sunRays_18
+  - first:
+      213: 269613641187674661
+    second: sunRays_19
+  - first:
+      213: 1359321984938225026
+    second: sunRays_20
+  - first:
+      213: 2232661913080581903
+    second: sunRays_21
+  - first:
+      213: 8415257949512491782
+    second: sunRays_22
+  - first:
+      213: 72792530970641543
+    second: sunRays_23
+  - first:
+      213: 1689915718831410032
+    second: sunRays_24
+  - first:
+      213: 4945902327822686521
+    second: sunRays_25
+  - first:
+      213: -4740410326385284585
+    second: sunRays_26
+  - first:
+      213: 6436415836212007657
+    second: sunRays_27
+  - first:
+      213: -5096461735987694950
+    second: sunRays_28
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: sunRays_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 499
+        width: 299
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25831fff344727320800000000000000
+      internalID: 2554231774078122066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sunRays_1
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 571
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dee61226398976030800000000000000
+      internalID: 3487924195195711213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sunRays_2
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 567
+        width: 58
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f96266f8ad597ed60800000000000000
+      internalID: 7919463235695552159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sunRays_3
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 563
+        width: 46
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec3258a79ce066490800000000000000
+      internalID: -7753493449964969010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sunRays_4
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 557
+        width: 45
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ebea9fa54a234ca0800000000000000
+      internalID: -6033932596959056923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sunRays_5
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 539
+        width: 90
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 258e8f3e99a354610800000000000000
+      internalID: 1604753274856597586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sunRays_6
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 477
+        width: 176
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8b3b9f17b38bdea0800000000000000
+      internalID: -5846934868677936242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sunRays_7
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 548
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8dce0df64174a4b70800000000000000
+      internalID: 8883991368042605784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sunRays_8
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 559
+        width: 18
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f55fa1b6c548532d0800000000000000
+      internalID: -3299585619510233761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sunRays_9
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 536
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88e742bdf24f454e0800000000000000
+      internalID: -1993700248641044856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sunRays_10
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 517
+        width: 23
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e140d16143a269c0800000000000000
+      internalID: -3935403623159152157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sunRays_11
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 415
+        width: 70
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1df3be59e37f19470800000000000000
+      internalID: 8399766628197941201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sunRays_12
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 490
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d813ca74cfc726c0800000000000000
+      internalID: -4168134487327958831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sunRays_13
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 351
+        width: 204
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f6658991163def30800000000000000
+      internalID: 4606397443087886065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sunRays_14
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 362
+        width: 224
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6d9239ed52d784c0800000000000000
+      internalID: -4285225219633537686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sunRays_15
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 295
+        width: 73
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb460fc53df93ca90800000000000000
+      internalID: -7294811241263897413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sunRays_16
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 355
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56b84211b08b309c0800000000000000
+      internalID: -3962120889484145819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sunRays_17
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 209
+        width: 132
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 392f26b79044c47f0800000000000000
+      internalID: -627051440595864941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sunRays_18
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 339
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3bc3b41d84a256b0800000000000000
+      internalID: -5309000084871722178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sunRays_19
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 301
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52a479d9d2cddb300800000000000000
+      internalID: 269613641187674661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sunRays_20
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 289
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28d2f9fa4284dd210800000000000000
+      internalID: 1359321984938225026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sunRays_21
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 147
+        width: 195
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0f46b84e220cfe10800000000000000
+      internalID: 2232661913080581903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sunRays_22
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 288
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60369f5e48009c470800000000000000
+      internalID: 8415257949512491782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sunRays_23
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 281
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7848ec6db6c920100800000000000000
+      internalID: 72792530970641543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sunRays_24
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 163
+        width: 78
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07b8b498469c37710800000000000000
+      internalID: 1689915718831410032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sunRays_25
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 0
+        width: 120
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93916af66ff53a440800000000000000
+      internalID: 4945902327822686521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sunRays_26
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 237
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71a26368ceda63eb0800000000000000
+      internalID: -4740410326385284585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sunRays_27
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 31
+        width: 151
+        height: 248
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e29d18f91eb25950800000000000000
+      internalID: 6436415836212007657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sunRays_28
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 222
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a923517ad0bb549b0800000000000000
+      internalID: -5096461735987694950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      sunRays_0: 2554231774078122066
+      sunRays_1: 3487924195195711213
+      sunRays_10: -3935403623159152157
+      sunRays_11: 8399766628197941201
+      sunRays_12: -4168134487327958831
+      sunRays_13: 4606397443087886065
+      sunRays_14: -4285225219633537686
+      sunRays_15: -7294811241263897413
+      sunRays_16: -3962120889484145819
+      sunRays_17: -627051440595864941
+      sunRays_18: -5309000084871722178
+      sunRays_19: 269613641187674661
+      sunRays_2: 7919463235695552159
+      sunRays_20: 1359321984938225026
+      sunRays_21: 2232661913080581903
+      sunRays_22: 8415257949512491782
+      sunRays_23: 72792530970641543
+      sunRays_24: 1689915718831410032
+      sunRays_25: 4945902327822686521
+      sunRays_26: -4740410326385284585
+      sunRays_27: 6436415836212007657
+      sunRays_28: -5096461735987694950
+      sunRays_3: -7753493449964969010
+      sunRays_4: -6033932596959056923
+      sunRays_5: 1604753274856597586
+      sunRays_6: -5846934868677936242
+      sunRays_7: 8883991368042605784
+      sunRays_8: -3299585619510233761
+      sunRays_9: -1993700248641044856
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
