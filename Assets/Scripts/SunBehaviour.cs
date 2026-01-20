@@ -17,6 +17,11 @@ public class SunBehaviour : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if (transform.position.x < -7.38f)
+            transform.position = new Vector3(-7.38f, transform.position.y);
+        if(transform.position.x > 17.47f)
+            transform.position = new Vector3(17.47f, transform.position.y);
+        if (Mathf.Abs(transform.position.y - 3.15f) > 0.1f)
+            transform.position = new Vector3(transform.position.x, 3.15f);
     }
 }

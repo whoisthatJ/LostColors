@@ -1,3 +1,4 @@
+using DG.Tweening;
 using UnityEngine;
 
 public class CarBehaviour : MonoBehaviour
@@ -18,6 +19,8 @@ public class CarBehaviour : MonoBehaviour
 
     Rigidbody2D rb;
 
+    public GameObject steeringWheel;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -36,6 +39,7 @@ public class CarBehaviour : MonoBehaviour
                 engineSource.Play();
             }
         }
+        steeringWheel.transform.DOLocalRotate(Vector3.forward * 20, 1).SetLoops(-1, LoopType.Yoyo);
     }
 
     private void Update()
