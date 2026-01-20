@@ -17,3 +17,23 @@ MonoBehaviour:
     clip: {fileID: 8300000, guid: 39f4623d7c650db4fa67d4095514d442, type: 3}
   - key: question
     clip: {fileID: 8300000, guid: a7fbfbeac4f7d174d8a4b9ed41ae2b1f, type: 3}
+  - key: alma
+    clip: {fileID: 8300000, guid: c5bd6d63493284c478b8a4ac8df6d97e, type: 3}
+  - key: badya
+    clip: {fileID: 8300000, guid: 0ff368815c986c94e804b7c76b9e07b2, type: 3}
+  - key: flowers
+    clip: {fileID: 8300000, guid: 41f956ae8f7c0de42b2302041ffa6ed3, type: 3}
+  - key: laugh2
+    clip: {fileID: 8300000, guid: 82035f492918f0c4aadbec4ecb8d2a53, type: 3}
+  - key: yes
+    clip: {fileID: 8300000, guid: d0b569878845fd847b5251864e26ae06, type: 3}
+  - key: no
+    clip: {fileID: 8300000, guid: 0e74b07c9af0cd349afffcf1d20ae622, type: 3}
+  - key: taptap
+    clip: {fileID: 8300000, guid: 11075d29ebb783c40b23fb4a322e1a35, type: 3}
+  - key: sit
+    clip: {fileID: 8300000, guid: bc1af51d83eaa564dab6ba37d6acc5a4, type: 3}
+  - key: car
+    clip: {fileID: 8300000, guid: 0ead51cb8460dc34a9d558e10d4706c5, type: 3}
+  - key: beep
+    clip: {fileID: 8300000, guid: f70ff88c2aabfcd4f9efac04d4b09dc4, type: 3}

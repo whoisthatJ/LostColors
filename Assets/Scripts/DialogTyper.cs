@@ -17,10 +17,8 @@ public class DialogTyper : MonoBehaviour {
     private string currentWord = "";
     private string pendingKey = null;
     private bool readingKey = false;
+    private bool readingAngle = false; // new: ignore content inside '<' '>'
 
-    private void Start() {
-        StartDialog("Ха[laugh] ха ха ха ха ха! Вот ты мешоооок! Это все на что ты способен[question]?");
-    }
     public void StartDialog(string rawText) {
         StopAllCoroutines();
         dialogText.text = "";
@@ -32,28 +30,41 @@ public class DialogTyper : MonoBehaviour {
         currentWord = "";
         pendingKey = null;
         readingKey = false;
+        readingAngle = false;
 
         for (int i = 0; i < rawText.Length; i++) {
             char c = rawText[i];
 
-            // Start reading key
+            // Sound key handling using [key]
             if (c == '[') {
                 readingKey = true;
                 pendingKey = "";
                 continue;
             }
 
-            // End reading key
             if (c == ']') {
                 readingKey = false;
                 continue;
             }
 
-            // Collect key characters
             if (readingKey) {
                 pendingKey += c;
                 continue;
             }
+
+            // Ignore text inside angle brackets (e.g. markup like <color=...>)
+            if (c == '<') {
+                readingAngle = true;                
+            }
+
+            if (c == '>') {
+                readingAngle = false;                
+            }
+
+            /*if (readingAngle) {
+                // skip everything inside <...>
+                continue;
+            }*/
 
             // Normal visible text
             visibleText += c;
@@ -67,8 +78,8 @@ public class DialogTyper : MonoBehaviour {
                 TryPlayPendingSound();
                 currentWord = "";
             }
-
-            yield return new WaitForSeconds(letterDelay);
+            if(!readingAngle)
+                yield return new WaitForSeconds(letterDelay);
         }
 
         // End of line
@@ -76,13 +87,20 @@ public class DialogTyper : MonoBehaviour {
     }
 
     private void TryPlayPendingSound() {
-        if (string.IsNullOrEmpty(pendingKey)) return;
-
-        AudioClip clip = soundBank.Get(pendingKey);
-        if (clip != null) {
-            audioSource.PlayOneShot(clip);
+        if (string.IsNullOrEmpty(pendingKey)) {
+            AudioClip clip = soundBank.Get("badya");
+            if (clip != null && !audioSource.isPlaying) {
+                audioSource.clip = clip;
+                audioSource.Play();
+            }
         }
-
+        else {
+            AudioClip clip = soundBank.Get(pendingKey);
+            if (clip != null) {
+                audioSource.clip = clip;
+                audioSource.Play();
+            }
+        }
         pendingKey = null;
     }
 }

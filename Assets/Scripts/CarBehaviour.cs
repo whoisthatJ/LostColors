@@ -20,7 +20,7 @@ public class CarBehaviour : MonoBehaviour
     Rigidbody2D rb;
 
     public GameObject steeringWheel;
-
+    bool isLocked = true;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -39,7 +39,14 @@ public class CarBehaviour : MonoBehaviour
                 engineSource.Play();
             }
         }
+        PlayerController.Instance.isLocked = true;
         steeringWheel.transform.DOLocalRotate(Vector3.forward * 20, 1).SetLoops(-1, LoopType.Yoyo);
+        DialogController.Instance.StartDialog(() => {
+            PlayerController.Instance.gameObject.transform.SetParent(transform);
+            PlayerController.Instance.gameObject.transform.localPosition = new Vector3(0, 4, 0);
+            PlayerController.Instance.isLocked = true;
+            isLocked = false;
+        });
     }
 
     private void Update()
@@ -56,6 +63,8 @@ public class CarBehaviour : MonoBehaviour
     // FixedUpdate is called on the physics step
     void FixedUpdate()
     {
+        if(isLocked)
+            return;
         float axis = Input.GetAxis("Horizontal");
 
         // Compute desired motor speed.
